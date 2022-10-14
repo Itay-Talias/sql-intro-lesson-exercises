@@ -1,1 +1,9 @@
 USE sql_intro;
+
+
+UPDATE Dolphin
+SET healthy = 0
+WHERE color = "Green" OR color = "Brown";
+
+SELECT *
+FROM Dolphin
